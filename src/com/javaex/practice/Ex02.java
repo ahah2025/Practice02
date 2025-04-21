@@ -2,14 +2,14 @@ package com.javaex.practice;
 
 public class Ex02 {
 
-	public static void main(String[ ]args) { //char,int,String
+	public static void main(String[ ]args) { //char,byte,short, int,String
 		//(2)	char 
-		char grade = 'a';
+	/*	char grade = 'a';
 		
 		switch(grade) {
 		case 'A':
 		case 'a':
-			System.out.println("우수 회원입니다."); //우수 회원입니다.
+			System.out.println("우수 회원입니다."); 
 			break;
 		case 'B':
 		case 'b':
@@ -17,10 +17,43 @@ public class Ex02 {
 			break;	
 		default:
 			System.out.println("손님입니다.");
+		} 
+		*/
+	//	(3) byte 
+		byte grade = 'k'; //일반 회원입니다.
+		
+		switch(grade) {
+		case 'H':
+		case 'h':
+			System.out.println("우수 회원입니다."); 
+			break;
+		case 'K':
+		case 'k':
+			System.out.println("일반 회원입니다.");
+			break;	
+		default:
+			System.out.println("손님입니다.");
 		}
 		
-		//(5) int
-	/*	int time = (int) (Math.random() * 4) + 9;
+		
+	/*	(4) short
+	    short grade = 'h';
+		
+		switch(grade) {
+		case 'H':
+		case 'h':
+			System.out.println("우수 회원입니다."); 
+			break;
+		case 'K':
+		case 'k':
+			System.out.println("일반 회원입니다.");
+			break;	
+		default:
+			System.out.println("손님입니다.");
+		}
+		
+		// (5) int
+		int time = (int) (Math.random() * 4) + 9;
 		System.out.println("[현재시간: " + time + " 시]") ;
 		
 		switch(time) { //break 문이 없는 case
