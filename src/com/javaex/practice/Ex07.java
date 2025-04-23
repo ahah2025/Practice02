@@ -7,7 +7,7 @@ public class Ex07 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("나이를 입력해주세요");
-		System.out.println("나이: ");
+		System.out.print("나이: ");
 		int age = sc.nextInt();
 		
 		if(0<=age && age<=7) {
