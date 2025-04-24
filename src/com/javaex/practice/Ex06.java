@@ -8,6 +8,7 @@ public class Ex06 {
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("나이를 입력해주세요");
+		System.out.print("나이: ");
 		
 		int age = sc.nextInt();
 		

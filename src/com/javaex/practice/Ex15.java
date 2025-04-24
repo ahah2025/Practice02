@@ -1,30 +1,33 @@
 package com.javaex.practice;
 
-import java.util.Scanner;
-
 public class Ex15 {
 
-	public static void main(String[] args) { //결과 값이 전혀 다름
-		int a = 10;
-		Scanner sc = new Scanner(System.in);
-
+	public static void main(String[] args) { 
+		//
+		int c=(int) (Math.random() / 6) + 1;
 		System.out.println("출력되는 내용을 입력하세요");
-		System.out.print("기호: "+ a);
-		int var = sc.nextInt();
+		System.out.println("기호:"+ c);
+		System.out.println("숫자1: "+"");
+		System.out.println("숫자2: "+"");
+		System.out.println("결과는: "+"");
 		
-		System.out.print("숫자1: ");
-		int num = sc.nextInt();
+		switch(c) {
+		case '+':
+			System.out.println("a");
+		case '-':
+			System.out.println(1);
+		case '*':
+			System.out.println(90);
+		case '/':
+			System.out.println(30);
 		
-		System.out.println("숫자2: ");
-		int no = sc.nextInt();
-		
-		System.out.println("결과는: ");
-		int result = sc.nextInt();
-		
-		sc.close();
+		}
 	}
 }
 /*
 출력되는 내용을 입력하세요
-기호: 10
+기호:1
+숫자1: 
+숫자2: 
+결과는: 
 */
