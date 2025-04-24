@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ex10 {
 
 	public static void main(String[] args) {
-		//큰 수: 작은수: 는 안 보임
+		//큰 수인지 작은수인지는 확인 할 수 있으나 큰수가 몇인지, 작은수가 얼마인지 확인 불가
 		Scanner sc = new Scanner (System.in);
 				
 		System.out.println("숫자2개를 입력해주세요");
@@ -20,8 +20,7 @@ public class Ex10 {
 		}else { 
 		System.out.println("작은수");
 		}
-		System.out.println("입니다.");
-							
+								
 		sc.close();;	
 	}
 }
@@ -29,11 +28,13 @@ public class Ex10 {
 숫자2개를 입력해주세요
 숫자1: 15
 숫자2: 123
+큰 수
 =======================
 숫자1: 358
 숫자2: 11
+작은수
 =======================
 숫자1: 100
 숫자2: 100
-
+큰 수
 */
