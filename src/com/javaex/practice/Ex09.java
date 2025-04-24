@@ -15,7 +15,7 @@ public class Ex09 {
 		//나이 계산
 		age = thisYear-year;
 		
-		if(age<15 && age>=65) { //15세 미만,65세 이상인 경우
+		if(age<15 || age>=65) { //15세 미만,65세 이상인 경우
 			System.out.println(age+"살 무료예방접종 대상자 입니다");
 		}else { //위 나이를 제외한 나머지
 			System.out.print(age+"살 무료예방접종 대상자가 아닙니다");
